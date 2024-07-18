@@ -35,6 +35,12 @@ $(function(){
 				y = null;
 			}
 		}
+		else if(num == 'C') {
+			m = 0;
+			x = null;
+			y = null;
+			$('#disp').val('0');
+		}
 		else {
 			op = num;
 			x = m;
